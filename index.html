@@ -38,7 +38,7 @@
                         <div class="col-3">
                             <img class="img-profile" src="images/foto-instagram.jpg">
                         </div>
-                        <div class="col-7"> 
+            <div class="col-7">     
                             <div class="row" style="padding-top: 20px; padding-bottom: 10px;">
                                 <div class="col-8 col-lg-5"> 
                                     <h2 class="username">lucassnts</h2>
@@ -61,9 +61,10 @@
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <p class="profile-desc">LowLife | Acadêmico </p></div>
+                                    <p class="profile-desc">LowLife</p></div>
                             </div>
-                        </div>
+                            
+                       
                         <div class="col-2"></div>
                     </div>    
                 </div>
@@ -81,16 +82,60 @@
                     <div class="col-2 stories"> Destaques</div>
                     </div>    
                 </div> 
+                <!-- Line -->
+            
+                <hr size="3 width100%" color="#EEEEEE" style="margin: 0%;">
 
+                <!-- Nav feed -->
+                
+                <ul class="nav nav-tabs nav-feed">
+                    <li class="nav-item">
+                    <a class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i> PUBLICAÇÕES</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-2" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="bi bi-file-person"></i> MARCADOS</a>
+                    </li>
+                </ul>   
+
+                <!-- Card Feed -->
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                        <div class="row" style="padding-bottom: 25px;">
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="images/post1.png" class="card-img-top" alt="..."> 
+                                </div>
+                            </div>
+                             <div class="col-4">
+                                <div class="card">
+                                    <img src="images/post2.png" class="card-img-top" alt="..."> 
+                                </div>
+                            </div>
+                             <div class="col-4">
+                                <div class="card">
+                                    <img src="images/post4.png" class="card-img-top" alt="..."> 
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
+                </div>
+
+
+            </div>        
                 <div class="col-0 col-md-2"></div>
-            </div>
+            
+          </div>  
         </div>
     </section>
 
     <script type="text/javascript">
      var crl1 = document.getElementById('myCrl1').getContext('2d');
 
-     crl1.beginPath();
+     crl1.beginPath();  
      crl1.arc(60, 100, 40, 0, 2 * Math.PI);
      crl1.fillStyle = '#00ACC1';
      crl1.fill();
